@@ -1,0 +1,115 @@
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.topHalfContainer {
+  display: flex;
+  flex-grow: 1;
+  background-color: #232E39;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.galleryContainer {
+  margin-top: 10px;
+  height: 40vh;
+  flex-grow: 1;
+  background-color: #232E39;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  overflow: scroll;
+}
+
+.topHalfTitle{
+  font-family: sans-serif;
+  color: white;
+  font-size: 5em;
+}
+
+.topHalfText{
+  margin-top: 1em;
+  font-family: 'Georgia', serif;
+  font-size: 2em;
+  color: white;
+}
+
+.bottomHalfContainer {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  flex-direction: column;
+  background-color: #4A4A4A;
+}
+
+.buttonsContainer {
+  width: 100%;
+  flex-grow: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.settingsContainer {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.tcButton {
+  font-family: sans-serif;
+  margin: 5%;
+  color: white;
+}
+
+.startSymbol{
+  font-size: 12px;
+}
+.stopSymbol{
+  font-size: 30px;
+}
+
+.settingSymbol{
+  display: flex;
+  font-size: 30px;
+  margin: .5em;
+}
+
+button {
+  font-size: 32px;
+  background-color: #B77D64;
+  border:none;
+  border-radius: 2em;
+  padding: 1em;
+  width: 200px;
+  height: 100px;
+  cursor: pointer;
+}
+
+button:focus {outline:0;}
+button:hover {background-color: #b47155;}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  margin:0;
+}
+
+html {
+  font-family: sans-serif;
+  color: white;
+}

@@ -1,0 +1,105 @@
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.topHalfContainer {
+  display: flex;
+  flex-grow: 1;
+  background-color: #232E39;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.topHalfTitle{
+  font-family: sans-serif;
+  color: white;
+  font-size: 5em;
+}
+
+.topHalfText{
+  margin-top: 1em;
+  font-family: 'Georgia', serif;
+  font-size: 2em;
+  color: white;
+}
+
+.bottomHalfContainer {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  flex-direction: column;
+  background-color: #4A4A4A;
+}
+
+.buttonsContainer {
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.optionsContainer {
+  width: 100%;
+  display: flex;
+  flex-grow: 2;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.tcButton {
+  font-family: sans-serif;
+  margin: 5%;
+  color: white;
+}
+
+button {
+  font-size: 32px;
+  background-color: #B77D64;
+  border:none;
+  border-radius: 2em;
+  padding: 1em;
+  width: 200px;
+  height: 100px;
+  cursor: pointer;
+}
+
+button:focus {outline:0;}
+button:hover {background-color: #b47155;}
+
+input {
+    border:none;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 1em;
+    width: 250px;
+    color: inherit;
+    border-bottom:1px solid transparent;
+    transition:border 200ms;
+    cursor: text;
+    text-overflow:ellipsis;
+
+    &:hover {
+      border-bottom: 1px dotted white;
+    }
+
+  }
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  margin:0;
+}
