@@ -22,7 +22,7 @@
     "cleanup": "mop -v"
   },
   "build": {
-    "appId": "com.electron.autocap",
+    "appId": "com.trunkclub.autocap",
     "category": "public.app-category.tools",
     "dmg": {
       "contents": [
