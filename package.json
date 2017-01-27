@@ -1,5 +1,5 @@
 {
-  "name": "trunkshot-development-package-dot-json",
+  "name": "autocap-development-package-dot-json",
   "main": "main.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test BABEL_DISABLE_CACHE=1 mocha --retries 2 --compilers js:babel-register --recursive --require ./test/setup.js test/**/*.spec.js",
@@ -18,11 +18,11 @@
     "package-win": "npm run build && build --win --x64",
     "package-linux": "npm run build && build --linux",
     "package-all": "npm run build && build -mwl",
-    "electron-packager": "electron-packager . Trunkshot",
+    "electron-packager": "electron-packager . Autocap",
     "cleanup": "mop -v"
   },
   "build": {
-    "appId": "com.electron.trunkshot",
+    "appId": "com.electron.autocap",
     "category": "public.app-category.tools",
     "dmg": {
       "contents": [
@@ -70,16 +70,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trunkclub/trunkshot.git"
+    "url": "git+https://github.com/trunkclub/autocap.git"
   },
   "author": {
     "name": "Trunk Club",
-    "email": "trunkshot@trunkclub.com",
-    "url": "https://github.com/trunkclub/trunkshot"
+    "email": "autocap@trunkclub.com",
+    "url": "https://github.com/trunkclub/autocap"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trunkclub/trunkshot/issues"
+    "url": "https://github.com/trunkclub/autocap/issues"
   },
   "keywords": [
     "electron",
@@ -92,7 +92,7 @@
     "trunk club",
     "screenshot"
   ],
-  "homepage": "https://github.com/trunkclub/hackday-trunkshot#readme",
+  "homepage": "https://github.com/trunkclub/autocap#readme",
   "devDependencies": {
     "asar": "^0.12.3",
     "babel-core": "^6.18.0",

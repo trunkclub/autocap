@@ -4,7 +4,7 @@ import { Link } from 'react-router'
 import styles from './StartScreen.css'
 import Gallery from 'react-grid-gallery'
 import {ipcRenderer} from 'electron'
-import TrunkshotLogo from './TrunkshotLogo'
+import AutocapLogo from './AutocapLogo'
 
 // this is where the view sends to messages to the
 // electron process.
@@ -77,12 +77,7 @@ export default class StartScreen extends Component {
     }
     return (
        <div className={styles.topHalfContainer}>
-          <div className={styles.topHalfTitle}>
-           <TrunkshotLogo />
-          </div>
-         <div className={styles.topHalfText}>
-           Capture your processes with one click
-         </div>
+         <AutocapLogo />
        </div>
    )
   }
