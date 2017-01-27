@@ -1,4 +1,4 @@
-#### Trunkshot
+#### Autocap
 An app to help automate the creation of screenshot-based tutorials
 
 #### To run
@@ -39,5 +39,7 @@ Thanks to the original team at Trunk Club:
 [@oscillot](https://github.com/oscillot)
 [@wSnarski](https://github.com/wSnarski)
 [@zperrault](https://github.com/zperrault)
+
+Thanks to [@migreyes](https://github.com/migreyes) for logo and design help.
 
 And also thanks to [@alexainslie](https://github.com/alexainslie) for the inspiration for this app.

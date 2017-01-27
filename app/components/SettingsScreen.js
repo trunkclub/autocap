@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router'
 import styles from './SettingsScreen.css'
-import TrunkshotLogo from './TrunkshotLogo'
+import AutocapLogo from './AutocapLogo'
 
 const {ipcRenderer} = require('electron')
 
@@ -37,7 +37,7 @@ export default class SettingsScreen extends Component {
       <div className={styles.pageContainer}>
         <div className={styles.topHalfContainer}>
            <div className={styles.topHalfTitle}>
-            <TrunkshotLogo />
+            <AutocapLogo />
            </div>
         </div>
         <div className={styles.bottomHalfContainer}>

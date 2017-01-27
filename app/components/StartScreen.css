@@ -25,12 +25,6 @@
   overflow: scroll;
 }
 
-.topHalfTitle{
-  font-family: sans-serif;
-  color: white;
-  font-size: 5em;
-}
-
 .topHalfText{
   margin-top: 1em;
   font-family: 'Georgia', serif;
