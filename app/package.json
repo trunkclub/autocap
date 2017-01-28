@@ -1,7 +1,7 @@
 {
   "name": "autocap",
   "productName": "Autocap",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "An app to help automate the creation of tutorials for apps/processes.  Made using electron-react-boilerplate",
   "main": "main.js",
   "author": {
