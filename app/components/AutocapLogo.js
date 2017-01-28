@@ -1,6 +1,5 @@
 import React, { Component, Image } from 'react'
 import path from 'path'
-import styles from './AutocapLogo.css'
 
 export default class AutocapLogo extends Component {
   render() {
