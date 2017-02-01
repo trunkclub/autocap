@@ -18,7 +18,7 @@
     "package-win": "npm run build && build --win --x64",
     "package-linux": "npm run build && build --linux",
     "package-all": "npm run build && build -mwl",
-    "electron-packager": "electron-packager . Autocap",
+    "electron-packager": "electron-packager app Autocap",
     "cleanup": "mop -v"
   },
   "build": {
